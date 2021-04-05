@@ -19,3 +19,4 @@ class Solution:
                     return nums.index(pair[0]), nums.index(pair[1], nums.index(pair[0])+1)
                 else:
                     return nums.index(pair[0]), nums.index(pair[1])
+                
