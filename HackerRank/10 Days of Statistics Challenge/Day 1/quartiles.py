@@ -8,9 +8,9 @@ def quartiles(arr):
 	Q1 = median(arr[:len(arr)//2])
 	Q2 = median(arr)
 	if n%2 == 0:
-        Q3 = median(arr[len(arr)//2:])
-    else:
-        Q3 = median(arr[len(arr)//2+1:])
+		Q3 = median(arr[len(arr)//2:])
+	    else:
+		Q3 = median(arr[len(arr)//2+1:])
     return Q1,Q2,Q3
 
 n = int(input())
