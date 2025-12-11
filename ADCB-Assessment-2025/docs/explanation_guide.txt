@@ -1,0 +1,22 @@
+Feature Meanings:
+- income: Monthly customer income. Higher income indicates more repayment capacity.
+- utilization: Percentage of credit used relative to the limit.
+- missed_payments: Count of missed or delayed payments.
+- credit_history_length: Number of years since first credit account.
+- age: Customer age in years.
+- debt_to_income: Total debt divided by monthly income.
+
+
+General Risk Rules:
+- Utilization above 70% significantly increases risk.
+- More than 1 missed payment in last 12 months increases risk.
+- A long clean credit history decreases risk.
+- High income-to-debt ratio reduces risk.
+- Younger customers with short histories may show more volatility.
+
+
+Reasoning Patterns:
+- Pattern A: High income + long history → low risk.
+- Pattern B: High utilization + missed payments → high risk.
+- Pattern C: Young age + short credit history → medium/high risk.
+- Pattern D: Low utilization + no missed payments → low risk.

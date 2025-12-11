@@ -1,0 +1,24 @@
+[project]
+name = "adcb-test"
+version = "0.1.0"
+description = "ADCB Technical Assessment - Submitted by amansingh2912@yahoo.com"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "catboost>=1.2.8",
+    "dill>=0.4.0",
+    "fastapi>=0.124.0",
+    "imbalanced-learn>=0.14.0",
+    "imblearn>=0.0",
+    "jupyter>=1.1.1",
+    "lightgbm>=4.6.0",
+    "loguru>=0.7.3",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "pandoc>=2.4",
+    "scikit-learn>=1.8.0",
+    "uvicorn>=0.38.0",
+    "xgboost>=3.1.2",
+    "xlrd>=2.0.2",
+    "ydata-profiling>=4.18.0",
+]
